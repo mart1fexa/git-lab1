@@ -1,3 +1,4 @@
 [submodule "lib/postgresql"]
 	path = lib/postgresql
 	url = https://github.com/mart1fexa/psycopg.git
+	branch = lab1-changes
