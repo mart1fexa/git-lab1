@@ -9,3 +9,7 @@ def export_csv(src="parts.txt", dst="parts.csv"):
         for p in parts:
             f.write(f"{p['code']},{p['name']},{p['qty']}\n")
     return len(parts)
+
+
+def export_names(parts):
+    return "\n".join(p["name"] for p in parts)
