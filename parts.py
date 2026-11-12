@@ -15,7 +15,7 @@ def load_parts(path):
 
 
 def total_count(parts):
-    """Общее количество деталей на складе."""
+    """Общее количество деталей на складе, шт."""
     return sum(p["qty"] for p in parts)
 
 
