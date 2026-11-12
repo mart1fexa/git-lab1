@@ -26,6 +26,6 @@ def find_part(parts, code):
             return p
     return None
 
-def low_stock(parts, limit=10):
+def low_stock(parts, limit=5):
     """Детали, которых на складе меньше limit."""
     return [p for p in parts if p["qty"] < limit]
