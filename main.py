@@ -1,3 +1,4 @@
+# Учёт деталей склада - точка входа
 from parts import load_parts, total_count, find_part
 
 parts = load_parts("parts.txt")
